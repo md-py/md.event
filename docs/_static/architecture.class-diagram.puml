@@ -1,0 +1,41 @@
+@startuml
+
+skinparam class {
+  BackgroundColor #ebebeb
+  ArrowColor      #333
+  BorderColor     #333
+}
+
+skinparam lineType ortho
+
+package psr.event {
+  interface psr.event.EventDispatcherInterface {
+    + dispatch(event: object) -> object
+  }
+
+  interface psr.event.ListenerProviderInterface {
+    + get_listeners_for_event(event: object) -> Iterable[Callable[[object], Any]]
+  }
+
+  interface psr.event.StoppableEventInterface {
+    + is_propagation_stopped() -> bool
+  }
+
+  psr.event.EventDispatcherInterface -left- psr.event.StoppableEventInterface
+  psr.event.ListenerProviderInterface -- psr.event.EventDispatcherInterface
+}
+
+package md.event {
+  class StoppableEvent implements psr.event.StoppableEventInterface {
+    + stop_propagation() -> None
+    + is_propagation_stopped() -> bool
+  }
+
+  class Dispatcher implements psr.event.EventDispatcherInterface {
+    + subscribe(event: EventType, handler: EventCallbackType, priority: int = 0) -> None
+    + unsubscribe(event: EventType, handler: EventCallbackType) -> None
+    + dispatch(event: EventType) -> EventType
+  }
+}
+
+@enduml

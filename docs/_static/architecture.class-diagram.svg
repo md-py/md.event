@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="408px" preserveAspectRatio="none" style="width:778px;height:408px;background:#FFFFFF;" version="1.1" viewBox="0 0 778 408" width="778px" zoomAndPan="magnify"><defs><filter height="300%" id="fpue08k1cfbef" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[6573c5247ea1e7246febf33d0b7d6be9]
+cluster psr.event--><polygon fill="#FFFFFF" filter="url(#fpue08k1cfbef)" points="82,6,153,6,160,28.4883,561,28.4883,561,239,82,239,82,6" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="82" x2="160" y1="28.4883" y2="28.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="65" x="86" y="21.5352">psr.event</text><!--MD5=[ea56d5e6a5d1b4bd511335ead42e62ed]
+cluster md.event--><polygon fill="#FFFFFF" filter="url(#fpue08k1cfbef)" points="16,263,87,263,94,285.4883,761,285.4883,761,401,16,401,16,263" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="16" x2="94" y1="285.4883" y2="285.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="65" x="20" y="278.5352">md.event</text><!--MD5=[b9cbc8fe621763d6c8d6510598702326]
+class psr.event.EventDispatcherInterface--><rect codeLine="11" fill="#EBEBEB" filter="url(#fpue08k1cfbef)" height="60.9551" id="psr.event.EventDispatcherInterface" style="stroke:#333333;stroke-width:1.5;" width="202" x="343" y="162"/><ellipse cx="370.15" cy="178" fill="#B4A7E5" rx="11" ry="11" style="stroke:#333333;stroke-width:1.0;"/><path d="M366.0777,173.7651 L366.0777,171.6069 L373.4571,171.6069 L373.4571,173.7651 L370.9918,173.7651 L370.9918,181.8418 L373.4571,181.8418 L373.4571,184 L366.0777,184 L366.0777,181.8418 L368.5431,181.8418 L368.5431,173.7651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="386.85" y="182.5352">EventDispatcherInterface</text><line style="stroke:#333333;stroke-width:1.5;" x1="344" x2="544" y1="194" y2="194"/><line style="stroke:#333333;stroke-width:1.5;" x1="344" x2="544" y1="202" y2="202"/><ellipse cx="354" cy="213" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="176" x="363" y="216.6348">dispatch(event: object) -&gt; object</text><!--MD5=[e35e4d87c1214bdef329942508908050]
+class psr.event.ListenerProviderInterface--><rect codeLine="15" fill="#EBEBEB" filter="url(#fpue08k1cfbef)" height="60.9551" id="psr.event.ListenerProviderInterface" style="stroke:#333333;stroke-width:1.5;" width="415" x="129.5" y="41"/><ellipse cx="261.25" cy="57" fill="#B4A7E5" rx="11" ry="11" style="stroke:#333333;stroke-width:1.0;"/><path d="M257.1777,52.7651 L257.1777,50.6069 L264.5571,50.6069 L264.5571,52.7651 L262.0918,52.7651 L262.0918,60.8418 L264.5571,60.8418 L264.5571,63 L257.1777,63 L257.1777,60.8418 L259.6431,60.8418 L259.6431,52.7651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="143" x="281.75" y="61.5352">ListenerProviderInterface</text><line style="stroke:#333333;stroke-width:1.5;" x1="130.5" x2="543.5" y1="73" y2="73"/><line style="stroke:#333333;stroke-width:1.5;" x1="130.5" x2="543.5" y1="81" y2="81"/><ellipse cx="140.5" cy="92" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="389" x="149.5" y="95.6348">get_listeners_for_event(event: object) -&gt; Iterable[Callable[[object], Any]]</text><!--MD5=[7898f189757318b7f49c7fb0cb753cdb]
+class psr.event.StoppableEventInterface--><rect codeLine="19" fill="#EBEBEB" filter="url(#fpue08k1cfbef)" height="60.9551" id="psr.event.StoppableEventInterface" style="stroke:#333333;stroke-width:1.5;" width="210" x="98" y="162"/><ellipse cx="130.55" cy="178" fill="#B4A7E5" rx="11" ry="11" style="stroke:#333333;stroke-width:1.0;"/><path d="M126.4777,173.7651 L126.4777,171.6069 L133.8571,171.6069 L133.8571,173.7651 L131.3918,173.7651 L131.3918,181.8418 L133.8571,181.8418 L133.8571,184 L126.4777,184 L126.4777,181.8418 L128.9431,181.8418 L128.9431,173.7651 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="139" x="148.45" y="182.5352">StoppableEventInterface</text><line style="stroke:#333333;stroke-width:1.5;" x1="99" x2="307" y1="194" y2="194"/><line style="stroke:#333333;stroke-width:1.5;" x1="99" x2="307" y1="202" y2="202"/><ellipse cx="109" cy="213" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="118" y="216.6348">is_propagation_stopped() -&gt; bool</text><!--MD5=[7d33211c73f3a6f8521f9322fb2d1c00]
+class StoppableEvent--><rect codeLine="28" fill="#EBEBEB" filter="url(#fpue08k1cfbef)" height="73.9102" id="StoppableEvent" style="stroke:#333333;stroke-width:1.5;" width="210" x="32" y="304.5"/><ellipse cx="88.25" cy="320.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#333333;stroke-width:1.0;"/><path d="M91.2231,326.1431 Q90.6421,326.4419 90.0029,326.5913 Q89.3638,326.7407 88.6582,326.7407 Q86.1514,326.7407 84.8315,325.0889 Q83.5117,323.437 83.5117,320.3159 Q83.5117,317.1865 84.8315,315.5347 Q86.1514,313.8828 88.6582,313.8828 Q89.3638,313.8828 90.0112,314.0322 Q90.6587,314.1816 91.2231,314.4805 L91.2231,317.2031 Q90.5923,316.6221 89.9988,316.3523 Q89.4053,316.0825 88.7744,316.0825 Q87.4297,316.0825 86.7449,317.1492 Q86.0601,318.2158 86.0601,320.3159 Q86.0601,322.4077 86.7449,323.4744 Q87.4297,324.541 88.7744,324.541 Q89.4053,324.541 89.9988,324.2712 Q90.5923,324.0015 91.2231,323.4204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="108.75" y="325.0352">StoppableEvent</text><line style="stroke:#333333;stroke-width:1.5;" x1="33" x2="241" y1="336.5" y2="336.5"/><line style="stroke:#333333;stroke-width:1.5;" x1="33" x2="241" y1="344.5" y2="344.5"/><ellipse cx="43" cy="355.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="153" x="52" y="359.1348">stop_propagation() -&gt; None</text><ellipse cx="43" cy="368.4551" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="184" x="52" y="372.0898">is_propagation_stopped() -&gt; bool</text><!--MD5=[0c7624888451d2039aaef18036130ed9]
+class Dispatcher--><rect codeLine="33" fill="#EBEBEB" filter="url(#fpue08k1cfbef)" height="86.8652" id="Dispatcher" style="stroke:#333333;stroke-width:1.5;" width="467" x="277.5" y="298"/><ellipse cx="475.75" cy="314" fill="#ADD1B2" rx="11" ry="11" style="stroke:#333333;stroke-width:1.0;"/><path d="M478.7231,319.6431 Q478.1421,319.9419 477.5029,320.0913 Q476.8638,320.2407 476.1582,320.2407 Q473.6514,320.2407 472.3315,318.5889 Q471.0117,316.937 471.0117,313.8159 Q471.0117,310.6865 472.3315,309.0347 Q473.6514,307.3828 476.1582,307.3828 Q476.8638,307.3828 477.5112,307.5322 Q478.1587,307.6816 478.7231,307.9805 L478.7231,310.7031 Q478.0923,310.1221 477.4988,309.8523 Q476.9053,309.5825 476.2744,309.5825 Q474.9297,309.5825 474.2449,310.6492 Q473.5601,311.7158 473.5601,313.8159 Q473.5601,315.9077 474.2449,316.9744 Q474.9297,318.041 476.2744,318.041 Q476.9053,318.041 477.4988,317.7712 Q478.0923,317.5015 478.7231,316.9204 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="62" x="496.25" y="318.5352">Dispatcher</text><line style="stroke:#333333;stroke-width:1.5;" x1="278.5" x2="743.5" y1="330" y2="330"/><line style="stroke:#333333;stroke-width:1.5;" x1="278.5" x2="743.5" y1="338" y2="338"/><ellipse cx="288.5" cy="349" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="441" x="297.5" y="352.6348">subscribe(event: EventType, handler: EventCallbackType, priority: int = 0) -&gt; None</text><ellipse cx="288.5" cy="361.9551" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="367" x="297.5" y="365.5898">unsubscribe(event: EventType, handler: EventCallbackType) -&gt; None</text><ellipse cx="288.5" cy="374.9102" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="220" x="297.5" y="378.5449">dispatch(event: EventType) -&gt; EventType</text><!--MD5=[2c931e9e13b700667c428b6fa3167b0f]
+link psr.event.StoppableEventInterface to psr.event.EventDispatcherInterface--><path codeLine="23" d="M308.01,193 C319.55,193 331.28,193 342.78,193 " fill="none" id="psr.event.StoppableEventInterface-psr.event.EventDispatcherInterface" style="stroke:#333333;stroke-width:1.0;"/><!--MD5=[b68c6040fa3d66a3fe43e27fd35ccb49]
+link psr.event.ListenerProviderInterface to psr.event.EventDispatcherInterface--><path codeLine="24" d="M443.75,102.03 C443.75,120.38 443.75,143.64 443.75,161.98 " fill="none" id="psr.event.ListenerProviderInterface-psr.event.EventDispatcherInterface" style="stroke:#333333;stroke-width:1.0;"/><!--MD5=[cea2c3f2a78807a330fb8a3a4c7320da]
+reverse link psr.event.StoppableEventInterface to StoppableEvent--><path d="M170,243.01 C170,243.01 170,304.43 170,304.43 " fill="none" id="psr.event.StoppableEventInterface-backto-StoppableEvent" style="stroke:#333333;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="163,243.01,170,223.01,177,243.01,163,243.01" style="stroke:#333333;stroke-width:1.0;"/><!--MD5=[fb0ebe010e0379d717fd07371a08be52]
+reverse link psr.event.EventDispatcherInterface to Dispatcher--><path d="M444,243.01 C444,243.01 444,297.75 444,297.75 " fill="none" id="psr.event.EventDispatcherInterface-backto-Dispatcher" style="stroke:#333333;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="437,243.01,444,223.01,451,243.01,437,243.01" style="stroke:#333333;stroke-width:1.0;"/><!--MD5=[4b4e3f110337bec7be6c9cdf5d21df85]
+@startuml
+
+skinparam class {
+  BackgroundColor #ebebeb
+  ArrowColor      #333
+  BorderColor     #333
+}
+
+skinparam lineType ortho
+
+package psr.event {
+  interface psr.event.EventDispatcherInterface {
+    + dispatch(event: object) -> object
+  }
+
+  interface psr.event.ListenerProviderInterface {
+    + get_listeners_for_event(event: object) -> Iterable[Callable[[object], Any]]
+  }
+
+  interface psr.event.StoppableEventInterface {
+    + is_propagation_stopped() -> bool
+  }
+
+  psr.event.EventDispatcherInterface -left- psr.event.StoppableEventInterface
+  psr.event.ListenerProviderInterface - - psr.event.EventDispatcherInterface
+}
+
+package md.event {
+  class StoppableEvent implements psr.event.StoppableEventInterface {
+    + stop_propagation() -> None
+    + is_propagation_stopped() -> bool
+  }
+
+  class Dispatcher implements psr.event.EventDispatcherInterface {
+    + subscribe(event: EventType, handler: EventCallbackType, priority: int = 0) -> None
+    + unsubscribe(event: EventType, handler: EventCallbackType) -> None
+    + dispatch(event: EventType) -> EventType
+  }
+}
+
+@enduml
+
+PlantUML version 1.2022.0(Tue Jan 11 19:16:42 MSK 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: ru
+Country: RU
+--></g></svg>
