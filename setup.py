@@ -10,6 +10,8 @@ setuptools.setup(
     description='Event dispatcher',
     long_description=long_description,
     long_description_content_type='text/markdown',
+    license='License :: OSI Approved :: MIT License',
+    package_dir={'': 'lib'},
     packages=['md.event'],
     install_requires=['md.python==1.*', 'psr.event==1.*'],
     dependency_links=[
