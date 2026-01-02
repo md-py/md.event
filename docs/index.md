@@ -31,12 +31,11 @@ class ClientRegistrationFinished(md.event.StoppableEvent):
 class SendWelcomeEmailAfterClientRegistration:
     def after_client_registration(self, event: ClientRegistrationFinished) -> None:
         print('Welcome email sent to client', event.client)
-    
-        
+
+
 class AssignManagerAfterClientRegistration:
     def after_client_registration(self, event: ClientRegistrationFinished) -> None:
         print('Manager assigned to client', event.client)
-
 
 
 if __name__ == '__main__':
@@ -56,4 +55,4 @@ if __name__ == '__main__':
     event_dispatcher.dispatch(event=ClientRegistrationFinished(client=42))
 ```
 
-[architecture-overview]: _static/architecture.class-diagram.png
+[architecture-overview]: _static/architecture.class-diagram.svg

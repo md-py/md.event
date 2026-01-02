@@ -10,6 +10,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - [x] enhancement: explicitly clarify typing for event class in `Dispatcher.dispatch` method
 
+### Changed
+
+- [x] fix: switch `architecture-overview` image to `svg` type as main in documents files
+
 ## [1.0.1] — 2023-01-24
 ### Changed
 
