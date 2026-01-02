@@ -6,7 +6,7 @@ with open('readme.md') as fh:
 
 setuptools.setup(
     name='md.event',
-    version='1.0.0',
+    version='1.0.2',
     description='Event dispatcher',
     long_description=long_description,
     long_description_content_type='text/markdown',

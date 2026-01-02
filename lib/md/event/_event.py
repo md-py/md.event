@@ -71,6 +71,7 @@ class Dispatcher(psr.event.EventDispatcherInterface):
         if event_class not in self._subscription_map:
             return event
 
+        assert isinstance(event_class, str)
         subscription_map_length = len(self._subscription_map[event_class])
         assert 0 != subscription_map_length
 

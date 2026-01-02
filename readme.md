@@ -21,4 +21,4 @@ Read documentation with examples: https://development.md.land/python/md.event/
 ## [Changelog](changelog.md)
 ## [License (MIT)](license.md)
 
-[architecture-overview]: docs/_static/architecture.class-diagram.png
+[architecture-overview]: docs/_static/architecture.class-diagram.svg
