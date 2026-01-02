@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - [x] enhancement: explicitly clarify typing for event class in `Dispatcher.dispatch` method
+- [x] feature: add CI/CD github workflow configuration
 
 ### Changed
 
